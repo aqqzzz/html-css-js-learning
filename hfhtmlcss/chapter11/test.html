@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+
+</head>
+<body>
+    <script>
+        var person = function() {
+            name = "default";
+
+            return {
+                getName: function() {
+                    return name;
+                },xz
+
+                setName: function(newName) {
+                    name=newName;
+                }
+            }
+        }();
+
+        alert(person.name);
+        alert(person.getName());
+        person.setName("abc");
+        alert(person.getName());
+
+
+    </script>
+</body>
+</html>

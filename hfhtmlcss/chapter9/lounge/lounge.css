@@ -1,0 +1,41 @@
+
+body {
+	font-size: small;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
+}
+
+h1, h2 {
+	color: #007e7e;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 130%;
+}
+
+#guarantee {
+	border-color: white;
+	border-width: 1px;
+	border-style: dashed;
+	border-radius: 30px;
+	background-color: #a7cece;
+
+	padding: 25px;
+	margin: 30px;
+	padding-left: 80px;
+	margin-right: 250px;
+	line-height: 1.9em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #444444;
+	font-style: italic;
+
+	background-image: url(images/background.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+
+
+}
